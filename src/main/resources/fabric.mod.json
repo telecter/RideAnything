@@ -1,27 +1,23 @@
 {
-	"schemaVersion": 1,
-	"id": "rideanything",
-	"version": "1.0.1",
-	"name": "RideAnything",
-	"description": "Ride any animal in the game.",
-	"authors": [
-		"telecter"
-	],
-	"contact": {
-		"sources": "https://github.com/telecter/RideAnything"
-	},
-	"license": "MIT",
-	"icon": "assets/rideanything/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"xyz.telecter.rideanything.RideAnything"
-		]
-	},
-	"depends": {
-		"fabricloader": ">=0.16.14",
-		"minecraft": ">=1.21.2",
-		"java": ">=21",
-		"fabric-api": "*"
-	}
+  "schemaVersion": 1,
+  "id": "rideanything",
+  "version": "1.0.1",
+  "name": "RideAnything",
+  "description": "Ride any animal in the game.",
+  "authors": ["telecter"],
+  "contact": {
+    "sources": "https://github.com/telecter/RideAnything"
+  },
+  "license": "MIT",
+  "icon": "assets/rideanything/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["xyz.telecter.rideanything.RideAnything"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": ">=1.21.2",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
 }
