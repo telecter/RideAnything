@@ -10,38 +10,39 @@ This includes basically every animal in the game, including some hostile ones, l
 
 Here is a list of all the mobs you can ride with this mod:
 <details>
-<summary>List of mobs</summary>
-* Italicized if already rideable this in vanilla*
-- Armadillo  
-- Axolotl  
-- Bee  
-- *Camel*
-- Cat  
-- Chicken  
-- Cow  
-- *Donkey* 
-- Fox  
-- Frog  
-- Goat  
-- *Happy Ghast*  
-- Hoglin  
-- *Llama*  
-- Mooshroom  
-- *Mule*
-- Ocelot  
-- Panda  
-- Parrot  
-- Pig  
-- Polar Bear  
-- Rabbit  
-- Sheep  
-- *Skeleton Horse*  
-- Sniffer  
-- *Strider*  
-- *Trader Llama*  
-- Turtle  
-- Wolf  
-- Zombie Horse  
+  <summary>List of mobs</summary>
+
+  *Italicized if already rideable this in vanilla*
+  - Armadillo  
+  - Axolotl  
+  - Bee  
+  - *Camel* 
+  - Cat  
+  - Chicken  
+  - Cow  
+  - *Donkey*  
+  - Fox  
+  - Frog  
+  - Goat  
+  - *Happy Ghast*    
+  - Hoglin  
+  - *Llama*    
+  - Mooshroom   
+  - *Mule*  
+  - Ocelot  
+  - Panda   
+  - Parrot  
+  - Pig  
+  - Polar Bear  
+  - Rabbit  
+  - Sheep  
+  - *Skeleton Horse*  
+  - Sniffer  
+  - *Strider*   
+  - *Trader Llama*   
+  - Turtle  
+  - Wolf  
+  - Zombie Horse  
 </details>
 
 
