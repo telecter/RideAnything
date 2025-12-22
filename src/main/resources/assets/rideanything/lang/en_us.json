@@ -1,0 +1,9 @@
+{
+  "yacl3.config.rideanything:config.category.general": "General",
+  "yacl3.config.rideanything:config.allowed": "Allowed Mobs",
+  "yacl3.config.rideanything:config.mode": "Mode",
+  "yacl3.config.rideanything:config.enabled": "Mod Enabled",
+  "yacl3.config.enum.Mode.animals": "Only Animals",
+  "yacl3.config.enum.Mode.all": "All Mobs",
+  "yacl3.config.enum.Mode.custom": "Custom"
+}

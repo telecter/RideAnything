@@ -6,18 +6,22 @@
   "description": "Ride any animal in the game.",
   "authors": ["telecter"],
   "contact": {
-    "sources": "https://github.com/telecter/RideAnything"
+    "sources": "https://github.com/telecter/RideAnything",
+    "issues": "https://github.com/telecter/RideAnything/issues"
   },
   "license": "MIT",
   "icon": "assets/rideanything/icon.png",
   "environment": "*",
   "entrypoints": {
-    "main": ["xyz.telecter.rideanything.RideAnything"]
+    "main": ["xyz.telecter.rideanything.RideAnythingMod"],
+    "modmenu": ["xyz.telecter.rideanything.config.ModMenuIntegration"]
   },
   "depends": {
     "fabricloader": ">=0.16.14",
     "minecraft": ">=1.21.2",
     "java": ">=21",
-    "fabric-api": "*"
+    "fabric-api": "*",
+    "yet_another_config_lib_v3": ">=3.8.1+1.21.11-fabric",
+    "modmenu": "*"
   }
 }
