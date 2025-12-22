@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "rideanything",
-  "version": "1.0.1+1.21.1",
+  "version": "2.0.0+1.21.2",
   "name": "RideAnything",
   "description": "Ride any animal in the game.",
   "authors": ["telecter"],
@@ -21,7 +21,6 @@
     "minecraft": ">=1.21.2",
     "java": ">=21",
     "fabric-api": "*",
-    "yet_another_config_lib_v3": ">=3.8.1+1.21.11-fabric",
-    "modmenu": "*"
+    "yet_another_config_lib_v3": ">=3.8.1+1.21.3-fabric"
   }
 }
