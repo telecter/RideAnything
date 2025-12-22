@@ -1,18 +1,22 @@
-# RideAnything
+# <img src="src/main/resources/assets/rideanything/icon.png" height="35px"> Ride Anything
+*Requires [YACL](https://modrinth.com/mod/yacl) and [Mod Menu](https://modrinth.com/mod/modmenu) for configuration.*
 
-Ride any animal in the game!
+
+**Ride any mob in the game!**
 
 ![image](cow.png)
 
-Any mob in Minecraft that is an `AnimalEntity` can now be ridden by right clicking with an empty hand.
+This mod allows you to configure what types of mobs can be ridden in Minecraft. There are three modes:
+* **Only Animals** - Only entities that extend AnimalEntity, list shown below.
+* **All** - All living entities.
+* **Custom** - Custom entities defined in a list
 
-This includes basically every animal in the game, including some hostile ones, like hoglins. Good luck!
+The default mode is **Only Animals**.
 
-Here is a list of all the mobs you can ride with this mod:
 <details>
-  <summary>List of mobs</summary>
+  <summary>List of animal entities</summary>
 
-  *Italicized if already rideable this in vanilla*
+  *Italicized if already rideable in vanilla*
   - Armadillo  
   - Axolotl  
   - Bee  
@@ -43,18 +47,7 @@ Here is a list of all the mobs you can ride with this mod:
   - Turtle  
   - Wolf  
   - Zombie Horse  
-</details>
+</details>  
 
 
-## The Code
-This mod's entire functionality is in 5 lines of code:
-```java
-if (entity instanceof AnimalEntity && 
-player.getMainHandStack().isEmpty()) {
-		if (player.startRiding(entity)) {
-			return ActionResult.SUCCESS;
-		}
-}
-```
-That's it!
-
+The config screen can be opened from Mod Menu, and the config file can also be directly edited.

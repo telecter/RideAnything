@@ -11,7 +11,6 @@ import dev.isxander.yacl3.config.v2.api.ConfigClassHandler;
 import dev.isxander.yacl3.config.v2.api.ConfigField;
 import dev.isxander.yacl3.config.v2.api.SerialEntry;
 import dev.isxander.yacl3.config.v2.api.autogen.AutoGen;
-import dev.isxander.yacl3.config.v2.api.autogen.Boolean;
 import dev.isxander.yacl3.config.v2.api.autogen.CustomDescription;
 import dev.isxander.yacl3.config.v2.api.autogen.EnumCycler;
 import dev.isxander.yacl3.config.v2.api.autogen.ListGroup;
