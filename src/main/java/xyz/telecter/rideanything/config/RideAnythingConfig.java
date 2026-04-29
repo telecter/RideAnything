@@ -19,13 +19,13 @@ import dev.isxander.yacl3.config.v2.api.autogen.TickBox;
 import dev.isxander.yacl3.config.v2.api.serializer.GsonConfigSerializerBuilder;
 import dev.isxander.yacl3.impl.controller.StringControllerBuilderImpl;
 import net.fabricmc.loader.api.FabricLoader;
-import net.minecraft.util.Identifier;
+import net.minecraft.resources.Identifier;
 import xyz.telecter.rideanything.RideAnythingMod;
 
 public class RideAnythingConfig {
         public static ConfigClassHandler<RideAnythingConfig> HANDLER = ConfigClassHandler
                         .createBuilder(RideAnythingConfig.class)
-                        .id(Identifier.of(RideAnythingMod.MOD_ID, "config"))
+                        .id(Identifier.fromNamespaceAndPath(RideAnythingMod.MOD_ID, "config"))
                         .serializer(config -> GsonConfigSerializerBuilder.create(config)
                                         .setPath(FabricLoader.getInstance().getConfigDir()
                                                         .resolve(RideAnythingMod.MOD_ID + ".json5"))
